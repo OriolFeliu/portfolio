@@ -1,0 +1,60 @@
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header container */
+.header {
+  background-color: #0f172a; /* dark navy */
+  color: white;
+  padding: 1rem 2rem;
+  position: fixed; /* sticks at top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* Navbar flex layout */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* space between logo and links */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Nav links list */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: #f8fafc;
+}
+
+/* Nav links styling */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #38bdf8; /* light blue */
+}
+
+/* Responsive: collapse nav on small screens */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* hide for now, later can add hamburger */
+  }
+}
