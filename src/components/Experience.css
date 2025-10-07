@@ -1,0 +1,30 @@
+.experience-section {
+  padding: 6rem 2rem;
+}
+
+.experience-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.experience-container {
+  flex: 1;
+  min-width: 250px;
+}
+
+.experience-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.experience-entry {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease;
+}

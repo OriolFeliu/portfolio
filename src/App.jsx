@@ -31,6 +31,8 @@ import "./App.css";
 }*/
 import Header from "./components/Header";
 import About from "./components/About";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -39,6 +41,9 @@ function App() {
     <div>
       <Header />
       <About />
+      <Projects />
+      <Experience />
+      {/* <Contact /> */}
     </div>
   );
 }

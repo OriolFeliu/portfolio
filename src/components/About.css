@@ -39,5 +39,5 @@
 .about-image img {
   max-width: 200px;
   border-radius: 50%; /* circular profile photo */
-  border: 4px solid #38bdf8; /* accent border */
+  /*border: 2px solid #dfd9d9; /* accent border */
 }
