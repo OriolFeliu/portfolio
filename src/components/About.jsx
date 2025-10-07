@@ -1,5 +1,7 @@
 import "./About.css";
 
+import profileImg from "../assets/profile-img.jpeg";
+
 function About() {
   return (
     <section id="about" className="about-section">
@@ -20,7 +22,7 @@ function About() {
           </p>
         </div>
         <div className="about-image">
-          <img src="src/assets/profile-img.jpeg" alt="Oriol F." />
+          <img src={profileImg} alt="Oriol F." />
         </div>
       </div>
     </section>
